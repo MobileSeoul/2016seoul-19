@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">서울시 장난감대여</string>
+    <string name="naver_client_id">A7aGw7TPdowiXmzHPewu</string> <!-- sejin0109@naver.com -->
+    <string name="naver_client_secret">ehDjfRKCyJ</string> <!-- sejin0109@naver.com -->
+    <string name="facebook_app_id">1220053101387131</string> <!-- sejin-011@hanmail.net -->
+
+    <!-- 센터 -->
+    <string name="center_call">전화하기</string>
+    <string name="center_navi">길찾기</string>
+    <string name="center_homepage">홈페이지</string>
+    <string name="center_toy_search">장난감 검색</string>
+
+    <!-- 타임라인 -->
+    <string name="timeline_center">장난감 대여</string>
+    <string name="timeline_write">글쓰기</string>
+    <string name="timeline_write_hint">이 곳에 내용을 입력하세요.</string>
+    <string name="timeline_empty_search">검색된 타임라인이 없습니다.</string>
+    <string name="timeline_delete_long_click">타임라인을 삭제하려면 길게누르세요.</string>
+
+    <!-- toast -->
+    <string name="toast_data_get_fail">데이터를 가져오는데 실패하였습니다.</string>
+    <string name="toast_data_proc_fail">데이터 처리를 실패하였습니다.</string>
+    <string name="toast_text_empty">내용을 입력하여 주시기 바랍니다.</string>
+    <string name="toast_login_fail">로그인을 실패하였습니다.</string>
+    <string name="toast_login_need">로그인이 필요합니다.</string>
+    <string name="toast_logout">로그아웃을 하였습니다.</string>
+    <string name="toast_map_fail">지도 데이터 처리를 실패하였습니다.</string>
+    <string name="toast_need_permission_file">권한을 허용해야 파일 다운로드를 할 수 있습니다.</string>
+    <string name="toast_get_image_fail">이미지를 가져오지 못하였습니다.</string>
+    <string name="toast_back_close">뒤로 가기 한번 더 누르면 종료됩니다.</string>
+
+    <!-- 로그인 -->
+    <string name="login_need">로그인을 하려면 누르세요.</string>
+    <string name="login_facebook">페이스북 로그인</string>
+    <string name="login_google">구글 로그인</string>
+    <string name="login_naver">네이버 로그인</string>
+    <string name="logout">로그아웃</string>
+
+    <!-- 타임라인 글쓰기-->
+    <string name="write_delete_long_click">이미지를 삭제하려면 길게누르세요.</string>
+    <string name="write_max_file_cout">이미지는 5개까지 가능합니다.</string>
+    <string name="write_select_place">카테고리를 선택하여 주시기 바랍니다.</string>
+
+    <!-- 댓글 -->
+    <string name="reply_edit">이 곳에 내용을 입력하세요.</string>
+    <string name="reply_empty_search">검색된 댓글이 없습니다.</string>
+    <string name="reply_delete_long_click">댓글을 삭제하려면 길게누르세요.</string>
+
+</resources>

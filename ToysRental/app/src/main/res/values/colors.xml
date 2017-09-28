@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorControlNormal">#ffffff</color>
+
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_e6d7d7">#e6d7d7</color> <!-- 일반 아이콘 -->
+    <color name="color_e1c6c6">#e1c6c6</color> <!-- 일반 아이콘 pressed -->
+    <color name="color_f5b2c9">#f49cba</color> <!-- 공감 아이콘 -->
+    <color name="color_b2000000">#99504d4d</color> <!-- 공감 아이콘 -->
+    <color name="color_c5aeae">#c5aeae</color>
+    <color name="color_ccffff">#ccffff</color>
+
+    <!-- fab -->
+    <color name="black_semi_transparent">#b2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+
+
+
+    <!-- kakao -->
+    <color name="color_ffeb00">#ffeb00</color>
+    <color name="color_99ffeb00">#99ffeb00</color>
+
+    <!-- facebook -->
+    <color name="color_336699">#336699</color>
+    <color name="color_99336699">#99336699</color>
+
+    <!-- google -->
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_99eeeeee">#99eeeeee</color>
+
+    <!-- naver -->
+    <color name="color_1ec800">#1ec800</color>
+    <color name="color_991ec800">#991ec800</color>
+
+</resources>

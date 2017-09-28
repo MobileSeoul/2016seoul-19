@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hour24.toysrental">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".service.timeline.view.TimeLineMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- center -->
+        <activity android:name=".service.center.view.CenterMain" />
+        <activity android:name=".service.center.view.CenterDetail" />
+        <activity
+            android:name=".service.center.view.HomePageSelect"
+            android:theme="@style/DialogTransparent" />
+        <activity
+            android:name=".service.center.view.Search"
+            android:theme="@style/DialogTransparent" />
+
+        <!-- time line -->
+        <activity
+            android:name=".service.timeline.view.Info"
+            android:theme="@style/DialogTransparent" />
+
+        <activity android:name=".service.timeline.view.WriteMain" />
+        <activity android:name=".service.reply.view.ReplyMain" />
+        <activity android:name=".common.view.picture.PictureView" />
+
+        <!-- Login -->
+        <activity
+            android:name=".service.login.LoginMain"
+            android:theme="@style/DialogTransparent" />
+        <activity
+            android:name=".service.login.LogoutMain"
+            android:theme="@style/DialogTransparent" />
+        <activity android:name=".service.login.FacebookLogin" />
+        <activity android:name=".service.login.GoogleLogin" />
+        <activity android:name=".service.login.NaverLogin" />
+        <activity android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" />
+        <activity
+            android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"
+            android:label="OAuth2.0 In-app" />
+
+
+    </application>
+
+</manifest>
